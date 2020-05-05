@@ -6,10 +6,10 @@
 	color: brown;
 }
 
-#more_experience >li p {
+#more_experience, #more_media >li p {
 	margin: 0;
 }
 
-#more_experience > li {
+#more_experience, #more_media > li {
 	margin-bottom: 1em;
 }
