@@ -1,0 +1,15 @@
+.twitter:hover {
+	color: #0095ff;
+}
+
+.instagram:hover {
+	color: brown;
+}
+
+#more_experience >li p, #more_media >li p {
+	margin: 0;
+}
+
+#more_experience > li, #more_media > li {
+	margin-bottom: 1em;
+}
