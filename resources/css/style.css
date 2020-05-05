@@ -1,15 +1,18 @@
 .twitter:hover {
-	color: #0095ff;
+  color: #0095ff;
 }
 
 .instagram:hover {
-	color: brown;
+  color: brown;
 }
 
-#more_experience >li p, #more_media >li p {
-	margin: 0;
+#experience > li:nth-child(n+4),
+#media > li:nth-child(n+4) {
+  display: none;
 }
 
-#more_experience > li, #more_media > li {
-	margin-bottom: 1em;
+#more_experience_btn,
+#more_media_btn {
+  display: inline-block;
+  margin-bottom: 1em;
 }
