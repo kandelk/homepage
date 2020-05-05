@@ -5,3 +5,11 @@
 .instagram:hover {
 	color: brown;
 }
+
+#more_experience >li p {
+	margin: 0;
+}
+
+#more_experience > li {
+	margin-bottom: 1em;
+}
