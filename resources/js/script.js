@@ -1,12 +1,14 @@
 function showMore(textId, btnId) {
-  var moreText = document.getElementById(textId);
-  var btnText = document.getElementById(btnId);
+	let list = $('#' + textId + ' >li');
+	let visible = $('#' + textId + ' >li:visible');
 
-  if (moreText.style.display === "block") {
-    btnText.innerHTML = "Show more";
-    moreText.style.display = "none";
-  } else {
-    btnText.innerHTML = "Show less";
-    moreText.style.display = "block";
-  }
+	if (list.length == visible.length) {
+
+		list.slice(4, list.length-1).hide();
+		$('#' + btnId).html('Show more');
+	} else {
+
+		$('#' + btnId).html('Show less');
+		$('#' + textId + ' li:hidden').show();
+	}
 }
